@@ -11,7 +11,7 @@ BIN Info Checker is a Python script that fetches information about a Bank Identi
 2. Install the required dependencies:
   ```bash
   pip install termcolor
-   ```
+  ```
 
 ## Usage
 
@@ -19,6 +19,7 @@ Run the script:
 
   ```bash
   python main.py
+  ```
 
 ## API Key Setup
 To use the script, you need to obtain an API key from RapidAPI. Replace the API_KEY variable in the script with your API key.
