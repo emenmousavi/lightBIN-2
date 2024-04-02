@@ -22,7 +22,7 @@ Run the script with the following command:
   python lightbin2.py
   ```
 
-# Command-Line Options
+### Command-Line Options
 -b BIN_NUMBER, --bin BIN_NUMBER: Specify the BIN number to fetch information for.
 -v, --verbose: Enable verbose mode to display detailed information during execution.
 -o {json,csv}, --output {json,csv}: Specify the output format as JSON or CSV. Default is console output.
