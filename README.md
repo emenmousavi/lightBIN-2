@@ -6,20 +6,23 @@ BIN Info Checker is a Python script that fetches information about a Bank Identi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/bin-info-checker.git
+   git clone https://github.com/emenmousavi/lightBIN-2
+   ```
 
 2. Install the required dependencies:
   ```bash
-  pip install termcolor
+  pip install -r requirements.txt
   ```
 
 ## Usage
 
-Run the script:
+Run the script with the following command:
 
   ```bash
-  python main.py
+  python lightbin2.py
   ```
 
-## API Key Setup
-To use the script, you need to obtain an API key from RapidAPI. Replace the API_KEY variable in the script with your API key.
+# Command-Line Options
+-b BIN_NUMBER, --bin BIN_NUMBER: Specify the BIN number to fetch information for.
+-v, --verbose: Enable verbose mode to display detailed information during execution.
+-o {json,csv}, --output {json,csv}: Specify the output format as JSON or CSV. Default is console output.
